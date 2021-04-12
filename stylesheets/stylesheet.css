@@ -1,0 +1,417 @@
+@charset "utf-8";
+/* CSS Document */
+body/*this conects to the body*/ {
+	 background-color: darkgreen;
+	 color: #FFFFFF;/*this changes the word color*/
+	 font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";/*this changes the font*/
+	 font-weight: 400;/*this changes the font weight*/
+}
+h1{
+	color: #19ECAE;	
+}
+h2{
+	color: #19ECAE;	
+}
+h3{
+	color: #19ECAE;	
+}
+p{
+	color: #00ffd9;
+}
+@media (max-width: 1200px){/*this makes it that the max width is what i set the limit to because this is only designed for 1200px screens*/
+}
+#title {/*this uses postion absolet to make it where i wanted to be to the specfic px*/
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1200px;
+	height:250px;
+	background-color:#073763;
+}
+#title2 {/*how position absolute is used is in id title*/
+	position:absolute;
+	TOP:15px;
+	LEFT:350px;
+	width:850px;
+	height:100px;
+	border:0;
+	font-size: 45px;
+	color: #19ECAE;
+}
+#navbar {/*how position absolute is used is in id title*/
+	position:absolute; 
+	TOP:125px; 
+	LEFT:350px; 
+	HEIGHT:80px; 
+	width:800px; 	
+	background-color:#103D3E;
+	font-size: 25px;
+	
+}
+a {
+  color:#19ECAE;
+}
+a:visited {
+  color:#19ECAE;
+}
+#logo {/*how position absolute is used is in id title*/
+	position:absolute; 
+	TOP:25px; 
+	LEFT:0px;
+	float:left;
+}
+.borderedcells {/*the css mainly uses ids but does have a few classes as some things needed the same lables*/
+  border: 1px solid black;
+}
+* {box-sizing: border-box;}
+.mySlides {display: none;}/*this makes it display what the java script gives it for myslides from the html*/
+
+.slideshow-container {/*how position absolute is used is in id title*/
+  max-width: 1000px;
+  position:absolute; 
+  TOP:275px; 
+  LEFT:350px; 
+  HEIGHT:80px; 
+  width:800px; 	
+  margin: auto;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;/*the duration i want the fade for the slides to have*/
+  animation-name: fade;
+  animation-duration: 1.5s;/*the duration i want the fade for the slides to have*/
+}
+
+@-webkit-keyframes fade {/*this makes the fade that the slides use happens*/
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {/*this makes the fade that the slides use happens*/
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+#wycdth{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:275px; 
+  LEFT:20px; 
+  HEIGHT:350px; 
+  width:300px; 	
+  background-color:#155456;
+}
+#wycdth_words{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:275px; 
+  LEFT:20px; 
+  font-size: 25px;
+  color: #19ECAE;
+}
+#wycdth_image{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 
+	
+}
+#Himpact1T{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:645px; 
+  LEFT:20px; 
+  HEIGHT:165px; 
+  width:300px; 
+  background-color:#155456;
+}
+#Himpact1{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 	
+}
+#Himpact2T{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:825px; 
+  LEFT:20px; 
+  HEIGHT:165px; 
+  width:300px; 
+  background-color:#155456;
+}
+#Himpact2{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 
+}
+#Pimpact1T{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:275px; 
+  LEFT:20px; 
+  HEIGHT:335px; 
+  width:300px; 
+  background-color:#155456;
+}
+#Pimpact1{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 	
+}
+#Pimpact2T{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:625px; 
+  LEFT:20px; 
+  HEIGHT:335px; 
+  width:300px; 
+  background-color:#155456;
+}
+#Pimpact2{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 
+}
+#Pimpact3T{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:975px; 
+  LEFT:20px; 
+  HEIGHT:335px; 
+  width:300px; 
+  background-color:#155456;
+}
+#Pimpact3{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 	
+}
+#Pimpact4T{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:1325px; 
+  LEFT:20px; 
+  HEIGHT:335px; 
+  width:300px; 
+  background-color:#155456;
+}
+#Pimpact4{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 
+}
+#Simpact1T{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:275px; 
+  LEFT:20px; 
+  HEIGHT:335px; 
+  width:300px; 
+  background-color:#155456;
+}
+#Simpact1{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 	
+}
+#Simpact2T{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:625px; 
+  LEFT:20px; 
+  HEIGHT:335px; 
+  width:300px; 
+  background-color:#155456;
+}
+#Simpact2{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 
+}
+#Simpact3T{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:975px; 
+  LEFT:20px; 
+  HEIGHT:335px; 
+  width:300px; 
+  background-color:#155456;
+}
+#Simpact3{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 	
+}
+#Simpact4T{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:1325px; 
+  LEFT:20px; 
+  HEIGHT:335px; 
+  width:300px; 
+  background-color:#155456;
+}
+#Simpact4{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:15px; 
+  LEFT:15px; 
+}
+#main_head{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:650px; 
+  LEFT:500px;
+  HEIGHT:50px; 
+  width:550px;
+}
+#main_p{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:715px; 
+  LEFT:450px; 
+  width:650px;
+  font-size: 25px;
+}
+#Psection1{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:260px; 
+  LEFT:350px;
+  width:800px;
+}
+#Psection2{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:960px; 
+  LEFT:350px;
+  width:800px;
+}
+#Ssection1{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:260px; 
+  LEFT:350px;
+  width:800px;
+}
+#Ssection2{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:960px; 
+  LEFT:350px;
+  width:800px;
+}
+#Hrights{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:935px; 
+  LEFT:400px;
+  width:700px;
+  height: 35px;
+  border: 1px solid black;
+  padding-top: 8px;
+}
+#Hbottem_gap{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:970px; 
+  LEFT:20px; 	
+  color:darkgreen;	
+}
+#Prights{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:1625px; 
+  LEFT:400px;
+  width:700px;
+  height: 35px;
+  border: 1px solid black;
+  padding-top: 8px;
+}
+#Pbottem_gap{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:1650px; 
+  LEFT:20px; 	
+  color:darkgreen;	
+}
+#Srights{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:1625px; 
+  LEFT:400px;
+  width:700px;
+  height: 35px;
+  border: 1px solid black;
+  padding-top: 8px;
+}
+#Sbottem_gap{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:1650px; 
+  LEFT:20px; 	
+  color:darkgreen;	
+}
+#privacy_policy{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:425px; 
+  LEFT:20px;
+  width:1100px;	
+}
+ul {list-style: none;}/*this makes it that the normal bullet points are removed*/
+ul li::before {/*this will make it that i can put something where i bullet points were*/
+  content: "\2022"; color: #00ffd9;/*this gives the code for the bullet points and then makes it the colour i want because the fixed colour was black*/
+  display: inline-block; width: 1em;
+  margin-left: -1em
+}
+.bullet_points{
+	display: inline;
+}
+.email{
+	color: #00ffd9;	
+}
+#terms_and_conditions{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:2400px; 
+  LEFT:20px;
+  width:1100px;	
+}
+#about_us{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:250px; 
+  LEFT:20px;
+  width:1100px;	
+}
+.dropbtn {
+  background-color: #103D3E;
+  color: #19ECAE;  
+  font-size: 25px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {/*their is a negative left because the drop bow was on line with the words but i wanted it to drop with the word being the middle so i needed to make it negative*/
+  display: none;
+  position: absolute;
+  left:-51.5px; 
+  background-color: #073763;
+  min-width: 231px;
+  z-index: 1;
+}
+
+.dropdown-content a {/*so when the ink was clicked it looked the same*/
+  color: #19ECAE;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #073763;}/*this made the background of the box stay the same*/
+
+.dropdown:hover .dropdown-content {display: block;}/*this makes it that the the drop bow does not appear befor you hover over the navbar catagory*/
+
+.dropdown:hover .dropbtn {background-color: #103D3E;}
+#gallery_info{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:275px; 
+}
+#gallery{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:350px; 
+  border: 2px solid #19ECAE;
+  padding-left: 10px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#gallery_au{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:5675px; 
+  LEFT:20px;
+  width:1100px;	
+  padding-bottom:50px;
+}@charset "utf-8";
+/* CSS Document */
+
