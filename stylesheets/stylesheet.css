@@ -57,7 +57,7 @@ a:visited {
 #logo {/*how position absolute is used is in id title*/
 	position:absolute; 
 	TOP:25px; 
-	LEFT:0px;
+	LEFT:-10px;
 	float:left;
 }
 .borderedcells {/*the css mainly uses ids but does have a few classes as some things needed the same lables*/
