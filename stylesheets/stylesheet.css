@@ -24,7 +24,7 @@ p{
 	position:absolute;
 	left:0px;
 	top:0px;
-	width:1200px;
+	width:100%;
 	height:250px;
 	background-color:#073763;
 }
@@ -72,7 +72,7 @@ a:visited {
   TOP:275px; 
   LEFT:350px; 
   HEIGHT:80px; 
-  width:800px; 	
+  width:66%; 	
   margin: auto;
 }
 
@@ -412,6 +412,5 @@ ul li::before {/*this will make it that i can put something where i bullet point
   LEFT:20px;
   width:1100px;	
   padding-bottom:50px;
-}@charset "utf-8";
-/* CSS Document */
+}
 
