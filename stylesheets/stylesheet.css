@@ -1,22 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
 body/*this conects to the body*/ {
-	 background-color: darkgreen;
+	 background-color:#1c4587ff;
 	 color: #FFFFFF;/*this changes the word color*/
 	 font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";/*this changes the font*/
 	 font-weight: 400;/*this changes the font weight*/
 }
 h1{
-	color: #19ECAE;	
+	color: #FFFFFF;	
 }
 h2{
-	color: #19ECAE;	
+	color: #FFFFFF;	
 }
 h3{
-	color: #19ECAE;	
+	color: #FFFFFF;	
 }
 p{
-	color: #00ffd9;
+	color: #FFFFFF;
 }
 @media (max-width: 1200px){/*this makes it that the max width is what i set the limit to because this is only designed for 1200px screens*/
 }
@@ -26,33 +26,33 @@ p{
 	top:0px;
 	width:100%;
 	height:250px;
-	background-color:#073763;
+	background-color:#392273ff;
 }
 #title2 {/*how position absolute is used is in id title*/
 	position:absolute;
 	TOP:15px;
 	LEFT:350px;
-	width:850px;
+	width:70.8%;
 	height:100px;
 	border:0;
 	font-size: 45px;
-	color: #19ECAE;
+	color: #ffffff;
 }
 #navbar {/*how position absolute is used is in id title*/
 	position:absolute; 
 	TOP:125px; 
 	LEFT:350px; 
 	HEIGHT:80px; 
-	width:800px; 	
-	background-color:#103D3E;
+	width:66.6%; 	
+	background-color:#666666ff;
 	font-size: 25px;
 	
 }
 a {
-  color:#19ECAE;
+  color:#FFFFFF;
 }
 a:visited {
-  color:#19ECAE;
+  color:#FFFFFF;
 }
 #logo {/*how position absolute is used is in id title*/
 	position:absolute; 
@@ -105,149 +105,19 @@ a:visited {
   width:300px; 	
   background-color:#155456;
 }
-#wycdth_words{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:275px; 
-  LEFT:20px; 
-  font-size: 25px;
-  color: #19ECAE;
-}
-#wycdth_image{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:15px; 
-  LEFT:15px; 
-	
-}
-#Himpact1T{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:645px; 
-  LEFT:20px; 
-  HEIGHT:165px; 
-  width:300px; 
-  background-color:#155456;
-}
+
 #Himpact1{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:15px; 
   LEFT:15px; 	
 }
-#Himpact2T{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:825px; 
-  LEFT:20px; 
-  HEIGHT:165px; 
-  width:300px; 
-  background-color:#155456;
-}
+
 #Himpact2{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:15px; 
   LEFT:15px; 
 }
-#Pimpact1T{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:275px; 
-  LEFT:20px; 
-  HEIGHT:335px; 
-  width:300px; 
-  background-color:#155456;
-}
-#Pimpact1{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:15px; 
-  LEFT:15px; 	
-}
-#Pimpact2T{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:625px; 
-  LEFT:20px; 
-  HEIGHT:335px; 
-  width:300px; 
-  background-color:#155456;
-}
-#Pimpact2{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:15px; 
-  LEFT:15px; 
-}
-#Pimpact3T{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:975px; 
-  LEFT:20px; 
-  HEIGHT:335px; 
-  width:300px; 
-  background-color:#155456;
-}
-#Pimpact3{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:15px; 
-  LEFT:15px; 	
-}
-#Pimpact4T{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:1325px; 
-  LEFT:20px; 
-  HEIGHT:335px; 
-  width:300px; 
-  background-color:#155456;
-}
-#Pimpact4{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:15px; 
-  LEFT:15px; 
-}
-#Simpact1T{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:275px; 
-  LEFT:20px; 
-  HEIGHT:335px; 
-  width:300px; 
-  background-color:#155456;
-}
-#Simpact1{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:15px; 
-  LEFT:15px; 	
-}
-#Simpact2T{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:625px; 
-  LEFT:20px; 
-  HEIGHT:335px; 
-  width:300px; 
-  background-color:#155456;
-}
-#Simpact2{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:15px; 
-  LEFT:15px; 
-}
-#Simpact3T{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:975px; 
-  LEFT:20px; 
-  HEIGHT:335px; 
-  width:300px; 
-  background-color:#155456;
-}
-#Simpact3{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:15px; 
-  LEFT:15px; 	
-}
-#Simpact4T{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:1325px; 
-  LEFT:20px; 
-  HEIGHT:335px; 
-  width:300px; 
-  background-color:#155456;
-}
-#Simpact4{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:15px; 
-  LEFT:15px; 
-}
+
 #main_head{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:650px; 
@@ -262,30 +132,7 @@ a:visited {
   width:650px;
   font-size: 25px;
 }
-#Psection1{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:260px; 
-  LEFT:350px;
-  width:800px;
-}
-#Psection2{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:960px; 
-  LEFT:350px;
-  width:800px;
-}
-#Ssection1{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:260px; 
-  LEFT:350px;
-  width:800px;
-}
-#Ssection2{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:960px; 
-  LEFT:350px;
-  width:800px;
-}
+
 #Hrights{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:935px; 
@@ -301,69 +148,10 @@ a:visited {
   LEFT:20px; 	
   color:darkgreen;	
 }
-#Prights{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:1625px; 
-  LEFT:400px;
-  width:700px;
-  height: 35px;
-  border: 1px solid black;
-  padding-top: 8px;
-}
-#Pbottem_gap{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:1650px; 
-  LEFT:20px; 	
-  color:darkgreen;	
-}
-#Srights{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:1625px; 
-  LEFT:400px;
-  width:700px;
-  height: 35px;
-  border: 1px solid black;
-  padding-top: 8px;
-}
-#Sbottem_gap{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:1650px; 
-  LEFT:20px; 	
-  color:darkgreen;	
-}
-#privacy_policy{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:425px; 
-  LEFT:20px;
-  width:1100px;	
-}
-ul {list-style: none;}/*this makes it that the normal bullet points are removed*/
-ul li::before {/*this will make it that i can put something where i bullet points were*/
-  content: "\2022"; color: #00ffd9;/*this gives the code for the bullet points and then makes it the colour i want because the fixed colour was black*/
-  display: inline-block; width: 1em;
-  margin-left: -1em
-}
-.bullet_points{
-	display: inline;
-}
-.email{
-	color: #00ffd9;	
-}
-#terms_and_conditions{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:2400px; 
-  LEFT:20px;
-  width:1100px;	
-}
-#about_us{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:250px; 
-  LEFT:20px;
-  width:1100px;	
-}
+
 .dropbtn {
-  background-color: #103D3E;
-  color: #19ECAE;  
+  background-color: #666666ff;
+  color: #FFFFFF;  
   font-size: 25px;
   border: none;
 }
@@ -377,40 +165,21 @@ ul li::before {/*this will make it that i can put something where i bullet point
   display: none;
   position: absolute;
   left:-51.5px; 
-  background-color: #073763;
+  background-color: #392273ff;
   min-width: 231px;
   z-index: 1;
 }
 
 .dropdown-content a {/*so when the ink was clicked it looked the same*/
-  color: #19ECAE;
+  color: #FFFFFF;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #073763;}/*this made the background of the box stay the same*/
+.dropdown-content a:hover {background-color: #392273ff;}/*this made the background of the box stay the same*/
 
 .dropdown:hover .dropdown-content {display: block;}/*this makes it that the the drop bow does not appear befor you hover over the navbar catagory*/
 
-.dropdown:hover .dropbtn {background-color: #103D3E;}
-#gallery_info{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:275px; 
-}
-#gallery{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:350px; 
-  border: 2px solid #19ECAE;
-  padding-left: 10px; 
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#gallery_au{/*how position absolute is used is in id title*/
-  position:absolute; 
-  TOP:5675px; 
-  LEFT:20px;
-  width:1100px;	
-  padding-bottom:50px;
-}
+.dropdown:hover .dropbtn {background-color: #666666ff;}
 
