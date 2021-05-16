@@ -20,7 +20,7 @@ p{
 }
 @media (max-width: 1200px){/*this makes it that the max width is what i set the limit to because this is only designed for 1200px screens*/
 }
-#title {/*this uses postion absolet to make it where i wanted to be to the specfic px*/
+#title {/*this uses postion absolet to make it where i wanted to be to the specfic %*/
 	position:absolute;
 	left:0%;
 	top:0%;
@@ -119,33 +119,35 @@ a:visited {
 
 #main_head{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:650px; 
-  LEFT:500px;
-  HEIGHT:50px; 
-  width:550px;
+  TOP:162.5%; 
+  LEFT:41.6%;
+  HEIGHT:12.5%; 
+  width:45.8%;
+  font-size:2.5vw;
 }
 #main_p{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:715px; 
-  LEFT:450px; 
-  width:650px;
-  font-size: 25px;
+  TOP:178.7%; 
+  LEFT:37.5%; 
+  width:54.2%;
+  font-size: 1.96vw;
 }
 
 #Hrights{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:935px; 
-  LEFT:400px;
-  width:700px;
-  height: 35px;
+  TOP:233.7%; 
+  LEFT:33.3%;
+  width:58.3%;
+  height: 8.7%;
   border: 1px solid black;
-  padding-top: 8px;
+  font-size:1.04vw;
+  padding-top: 1%;
 }
 #Hbottem_gap{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:970px; 
-  LEFT:20px; 	
-  color:darkgreen;	
+  TOP:242.5%; 
+  LEFT:1.7%; 	
+  color:#1c4587ff;	
 }
 
 .dropbtn {
