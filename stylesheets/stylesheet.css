@@ -170,3 +170,52 @@ a:visited {
 
 .dropdown:hover .dropbtn {background-color: #666666ff;}
 
+
+#Pimpact1{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:68.7%; 
+  LEFT:1.7%; 
+}
+#Pimpact2{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:156.2%; 
+  LEFT:1.7%;   
+}
+#Pimpact3{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:243.7%; 
+  LEFT:1.7%; 
+}
+#Pimpact4{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:331.2%; 
+  LEFT:1.7%;   
+}
+
+#Psection1{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:260px; 
+  LEFT:350px;
+  width:800px;
+}
+#Psection2{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:960px; 
+  LEFT:350px;
+  width:800px;
+}
+#Prights{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:1625px; 
+  LEFT:400px;
+  width:700px;
+  height: 35px;
+  border: 1px solid black;
+  padding-top: 8px;
+}
+#Pbottem_gap{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:1650px; 
+  LEFT:20px; 	
+  color:darkgreen;	
+}
