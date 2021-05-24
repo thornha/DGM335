@@ -7,16 +7,20 @@ body/*this conects to the body*/ {
 	 font-weight: 400;/*this changes the font weight*/
 }
 h1{
-	color: #FFFFFF;	
+	color: #FFFFFF;
+	font-size:2.5vw;
 }
 h2{
 	color: #FFFFFF;	
+	font-size:1.88vw;
 }
 h3{
-	color: #FFFFFF;	
+	color: #FFFFFF;
+	font-size:1.46vw;
 }
 p{
 	color: #FFFFFF;
+	font-size:1.25vw;
 }
 
 #title {/*this uses postion absolet to make it where i wanted to be to the specfic %*/
@@ -194,28 +198,29 @@ a:visited {
 
 #Psection1{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:260px; 
-  LEFT:350px;
-  width:800px;
+  TOP:65%; 
+  LEFT:29.2%;
+  width: 66.7%;
 }
 #Psection2{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:960px; 
-  LEFT:350px;
-  width:800px;
+  TOP:240%; 
+  LEFT:29.2%;
+  width:66.7%;
 }
 #Prights{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:1625px; 
-  LEFT:400px;
-  width:700px;
-  height: 35px;
+  TOP:406.2%; 
+  LEFT:33.3%;
+  width:58.3%;
+  height: 8.7%;
   border: 1px solid black;
-  padding-top: 8px;
+  padding-top: 1.1%;
+  font-size:1.04vw;
 }
 #Pbottem_gap{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:1650px; 
-  LEFT:20px; 	
+  TOP:412.5%; 
+  LEFT:1.7%; 	
   color:darkgreen;	
 }
