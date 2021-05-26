@@ -97,6 +97,11 @@ a:visited {
   from {opacity: .4} 
   to {opacity: 1}
 }
+.ssimage{/*mr Jessop helped me figure out how to make the images in the slide show squish*/
+	position:absolute;
+	top:1%;
+	left:1.7%;
+}
 #Himpact1{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:68.7%; 
@@ -195,12 +200,17 @@ a:visited {
   TOP:331.2%; 
   LEFT:1.7%;   
 }
-
+lmi1{
+  position:absolute; 
+  TOP:20%; 
+  LEFT:1.7%;
+}
 #Psection1{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:65%; 
   LEFT:29.2%;
   width: 66.7%;
+  height:230%;
 }
 #Psection2{/*how position absolute is used is in id title*/
   position:absolute; 
