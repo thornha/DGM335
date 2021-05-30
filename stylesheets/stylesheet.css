@@ -205,18 +205,39 @@ lmi1{
   TOP:20%; 
   LEFT:1.7%;
 }
-#Psection1{/*how position absolute is used is in id title*/
+.header1{
   position:absolute; 
   TOP:65%; 
   LEFT:29.2%;
   width: 66.7%;
-  height:230%;
 }
-#Psection2{/*how position absolute is used is in id title*/
+.mainI1{
+  position:absolute; 
+  TOP:80%; 
+  LEFT:29.2%;
+}
+.par1{
+  position:absolute; 
+  TOP:160%; 
+  LEFT:29.2%;
+  width: 66.7%;	
+}
+.header2{
   position:absolute; 
   TOP:240%; 
   LEFT:29.2%;
-  width:66.7%;
+  width: 66.7%;
+}
+.mainI2{
+  position:absolute; 
+  TOP:255%; 
+  LEFT:29.2%;
+}
+.par2{
+  position:absolute; 
+  TOP:335%; 
+  LEFT:29.2%;
+  width: 66.7%;	
 }
 #Prights{/*how position absolute is used is in id title*/
   position:absolute; 
