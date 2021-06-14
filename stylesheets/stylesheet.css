@@ -180,24 +180,44 @@ a:visited {
 .dropdown:hover .dropbtn {background-color: #666666ff;}
 
 
-#Pimpact1{/*how position absolute is used is in id title*/
+.impact1{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:68.7%; 
   LEFT:1.7%; 
 }
-#Pimpact2{/*how position absolute is used is in id title*/
+.impact2{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:156.2%; 
   LEFT:1.7%;   
 }
-#Pimpact3{/*how position absolute is used is in id title*/
+.impact3{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:243.7%; 
   LEFT:1.7%; 
 }
-#Pimpact4{/*how position absolute is used is in id title*/
+.impact4{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:331.2%; 
+  LEFT:1.7%;   
+}
+.impact5{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:414.7%; 
+  LEFT:1.7%; 
+}
+.impact6{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:506.2%; 
+  LEFT:1.7%;   
+}
+.impact7{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:593.7%; 
+  LEFT:1.7%; 
+}
+.impact8{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:681.2%; 
   LEFT:1.7%;   
 }
 lmi1{
@@ -218,7 +238,7 @@ lmi1{
 }
 .par1{
   position:absolute; 
-  TOP:160%; 
+  TOP:150%; 
   LEFT:29.2%;
   width: 66.7%;	
 }
@@ -235,7 +255,41 @@ lmi1{
 }
 .par2{
   position:absolute; 
-  TOP:335%; 
+  TOP:325%; 
+  LEFT:29.2%;
+  width: 66.7%;	
+}
+.header3{
+  position:absolute; 
+  TOP:415%; 
+  LEFT:29.2%;
+  width: 66.7%;
+}
+.mainI3{
+  position:absolute; 
+  TOP:430%; 
+  LEFT:29.2%;
+}
+.par3{
+  position:absolute; 
+  TOP:500%; 
+  LEFT:29.2%;
+  width: 66.7%;	
+}
+.header4{
+  position:absolute; 
+  TOP:590%; 
+  LEFT:29.2%;
+  width: 66.7%;
+}
+.mainI4{
+  position:absolute; 
+  TOP:605%; 
+  LEFT:29.2%;
+}
+.par4{
+  position:absolute; 
+  TOP:675%; 
   LEFT:29.2%;
   width: 66.7%;	
 }
@@ -253,7 +307,23 @@ lmi1{
   position:absolute; 
   TOP:412.5%; 
   LEFT:1.7%; 	
-  color:darkgreen;	
+  color:#1c4587ff;	
+}
+#Lrights{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:756.2%; 
+  LEFT:33.3%;
+  width:58.3%;
+  height: 8.7%;
+  border: 1px solid black;
+  padding-top: 1.1%;
+  font-size:1.04vw;
+}
+#Lbottem_gap{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:762.5%; 
+  LEFT:1.7%; 	
+  color:#1c4587ff;	
 }
 #privacy_policy{/*how position absolute is used is in id title*/
   position:absolute; 
