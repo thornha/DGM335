@@ -202,7 +202,7 @@ a:visited {
 }
 .impact5{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:414.7%; 
+  TOP:418.7%; 
   LEFT:1.7%; 
 }
 .impact6{/*how position absolute is used is in id title*/
@@ -295,7 +295,7 @@ lmi1{
 }
 #Prights{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:406.2%; 
+  TOP:250%; 
   LEFT:33.3%;
   width:58.3%;
   height: 8.7%;
@@ -305,7 +305,7 @@ lmi1{
 }
 #Pbottem_gap{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:412.5%; 
+  TOP:260%; 
   LEFT:1.7%; 	
   color:#1c4587ff;	
 }
