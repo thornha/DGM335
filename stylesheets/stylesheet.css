@@ -327,13 +327,13 @@ lmi1{
 }
 #privacy_policy{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:425px; 
-  LEFT:20px;
-  width:1100px;	
+  TOP:106.2%; 
+  LEFT:1.7;
+  width:91.7%;	
 }
 ul {list-style: none;}/*this makes it that the normal bullet points are removed*/
 ul li::before {/*this will make it that i can put something where i bullet points were*/
-  content: "\2022"; color: #00ffd9;/*this gives the code for the bullet points and then makes it the colour i want because the fixed colour was black*/
+  content: "\2022"; color: #ffffff;/*this gives the code for the bullet points and then makes it the colour i want because the fixed colour was black*/
   display: inline-block; width: 1em;
   margin-left: -1em
 }
@@ -341,17 +341,36 @@ ul li::before {/*this will make it that i can put something where i bullet point
 	display: inline;
 }
 .email{
-	color: #00ffd9;	
+	color: #FFFFFF;	
 }
 #terms_and_conditions{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:2400px; 
-  LEFT:20px;
-  width:1100px;	
+  TOP:1800%; 
+  LEFT:1.7%;
+  width:91.7%;	
 }
 #about_us{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:250px; 
-  LEFT:20px;
-  width:1100px;	
+  TOP:62.5%; 
+  LEFT:1.7%;
+  width:91.7%;	
+}
+#gallery_info{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:68.7%; 
+}
+#gallery{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:87.5%; 
+  border: 2px solid #19ECAE;
+  padding-left: 0.8%; /*was 10 px*/
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+}
+#gallery_au{/*how position absolute is used is in id title*/
+  position:absolute; 
+  TOP:2800%; 
+  LEFT:1.7%;
+  width:91.7%;	
+  padding-bottom:4.2%;/*was 50 px*/
 }
