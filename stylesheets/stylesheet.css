@@ -366,6 +366,8 @@ ul li::before {/*this will make it that i can put something where i bullet point
 #gallery{/*how position absolute is used is in id title*/
   position:absolute; 
   TOP:95.5%; 
+  left:0%;
+  width:100%;
   border: 2px solid #19ECAE;
   padding-left: 0.8%; /*was 10 px*/
   padding-top: 0.8%;
@@ -377,4 +379,16 @@ ul li::before {/*this will make it that i can put something where i bullet point
   LEFT:1.7%;
   width:91.7%;	
   padding-bottom:4.2%;/*was 50 px*/
+}
+.galleryim{
+  position:relative;
+  width:24%;
+  height: 500px;
+}
+span{
+	color: #FFFFFF;
+	font-size:1.2vw;
+	width: 24%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
