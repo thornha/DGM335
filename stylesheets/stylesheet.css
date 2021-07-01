@@ -20,7 +20,7 @@ h3{
 }
 p{
 	color: #FFFFFF;
-	font-size:1.25vw;
+	font-size:1.2vw;
 }
 li{
 	color: #FFFFFF;
@@ -130,12 +130,12 @@ a:visited {
   TOP:178.7%; 
   LEFT:37.5%; 
   width:54.2%;
-  font-size: 1.96vw;
+  font-size: 1.8vw;
 }
 
 #Hrights{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:233.7%; 
+  TOP:240%; 
   LEFT:33.3%;
   width:58.3%;
   height: 8.7%;
@@ -145,7 +145,7 @@ a:visited {
 }
 #Hbottem_gap{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:242.5%; 
+  TOP:250.5%; 
   LEFT:1.7%; 	
   color:#1c4587ff;	
 }
@@ -242,7 +242,7 @@ lmi1{
 }
 .par1{
   position:absolute; 
-  TOP:150%; 
+  TOP:153.2%; 
   LEFT:29.2%;
   width: 66.7%;	
 }
@@ -259,7 +259,7 @@ lmi1{
 }
 .par2{
   position:absolute; 
-  TOP:325%; 
+  TOP:328.5%; 
   LEFT:29.2%;
   width: 66.7%;	
 }
@@ -276,7 +276,7 @@ lmi1{
 }
 .par3{
   position:absolute; 
-  TOP:500%; 
+  TOP:503.5%; 
   LEFT:29.2%;
   width: 66.7%;	
 }
@@ -293,13 +293,13 @@ lmi1{
 }
 .par4{
   position:absolute; 
-  TOP:675%; 
+  TOP:678.5%; 
   LEFT:29.2%;
   width: 66.7%;	
 }
 #Prights{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:250%; 
+  TOP:231%; 
   LEFT:33.3%;
   width:58.3%;
   height: 8.7%;
@@ -309,7 +309,7 @@ lmi1{
 }
 #Pbottem_gap{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:260%; 
+  TOP:240%; 
   LEFT:1.7%; 	
   color:#1c4587ff;	
 }
@@ -365,7 +365,7 @@ ul li::before {/*this will make it that i can put something where i bullet point
 }
 #gallery{/*how position absolute is used is in id title*/
   position:absolute; 
-  TOP:87.5%; 
+  TOP:95.5%; 
   border: 2px solid #19ECAE;
   padding-left: 0.8%; /*was 10 px*/
   padding-top: 0.8%;
